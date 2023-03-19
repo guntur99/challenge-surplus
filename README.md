@@ -17,3 +17,6 @@
     3. Update Single Image
     4. Delete
     5. Get All Data
+
+## Postman Documentation
+https://documenter.getpostman.com/view/3661528/2s93JzMLWe
