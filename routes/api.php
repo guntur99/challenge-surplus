@@ -31,3 +31,11 @@ Route::prefix('product')->group(function () {
     Route::post('/update', [ProductController::class,'update']);
     Route::post('/delete', [ProductController::class,'destroy']);
 });
+
+Route::prefix('image')->group(function () {
+    Route::get('/all', [ImageController::class,'index']);
+    Route::post('/store', [ImageController::class,'store']);
+    Route::post('/update', [ImageController::class,'update']);
+    Route::post('/update/multiple', [ImageController::class,'updateMultiple']);
+    Route::post('/delete', [ImageController::class,'destroy']);
+});
