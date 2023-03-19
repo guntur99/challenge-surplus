@@ -13,7 +13,10 @@ return new class extends Migration
     {
         Schema::create('product_image', function (Blueprint $table) {
             $table->id();
+            $table->integer('product_id');
+            $table->integer('image_id');
             $table->timestamps();
+            $table->index(['product_id', 'image_id']);
         });
     }
 
