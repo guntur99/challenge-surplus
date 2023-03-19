@@ -24,3 +24,10 @@ Route::prefix('category')->group(function () {
     Route::post('/update', [CategoryController::class,'update']);
     Route::post('/delete', [CategoryController::class,'destroy']);
 });
+
+Route::prefix('product')->group(function () {
+    Route::get('/all', [ProductController::class,'index']);
+    Route::post('/store', [ProductController::class,'store']);
+    Route::post('/update', [ProductController::class,'update']);
+    Route::post('/delete', [ProductController::class,'destroy']);
+});
