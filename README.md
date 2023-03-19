@@ -1,6 +1,6 @@
 
 ## Challenge Surplus
-Project ini menggunakan Framework Laravel dan untuk run project gunakan command 'php artisan serve'.
+Project ini menggunakan Framework Laravel 10 dan untuk run project gunakan command 'php artisan serve'.
 
 1. Category
     1. Create 
